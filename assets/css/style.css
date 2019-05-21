@@ -1,0 +1,22 @@
+
+* {
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    background-image: url("https://www.ballparksofbaseball.com/wp-content/uploads/2016/03/citi17951.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-color: yellow */
+}
+
+#timer {
+    float: right;
+}
