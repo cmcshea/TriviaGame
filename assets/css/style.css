@@ -1,7 +1,7 @@
 
 * {
     box-sizing: border-box;
-    text-align: left;
+    /* text-align: left; */
 }
 
 .clearfix::after {
@@ -11,12 +11,16 @@
 }
 
 body {
-    background-image: url("https://www.ballparksofbaseball.com/wp-content/uploads/2016/03/citi17951.jpg");
+    background-image: url("http://www.cndajin.com/data/wls/194/17783550.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    /* background-color: yellow */
+}
+
+#questions {
+    background: white;
+    text-align: center;
 }
 
 #timer {
-    float: right;
+    /* float: right; */
 }
