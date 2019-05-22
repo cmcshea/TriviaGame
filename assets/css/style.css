@@ -30,3 +30,8 @@ body {
     color: red;
 }
 
+.question{
+    height: 20px;
+    background: rgb(152, 152, 218);
+}
+
