@@ -1,21 +1,31 @@
-// Create a Start button to begin game and count down clock
+//create Global Vars
 
-// Function to start the game 
-$("#Start").click(function(){
+var correctAnswers = 0;
+var incorrectAnswers = 0;
+var correctArr = [];
+var timer = 0; 
+
+// Create a function to start the game 
+
+
+$(".startBtn").on ("click", function(){
     start()
-    var timeleft = 15;
-    Timer = setInterval(function () {
-        document.getElementById("timer").innerHTML = timeleft + " seconds remaining";
-        timeleft -= 1;
-        if (timeleft <= 0) {
+    var timeRemaining = 30;
+    timer = setInterval(function () {
+        $("#timer").innerHTML = timeRemaining + " seconds remaining";
+        timeRemaining -= 1;
+        if (timeRemaining <= 0) {
             done()  
         }
     }, 1000);
-})
+});
+console.log(timeRemaining);
 
-//Create coundown clock starting at 30 secs going to 0 secs
+//Need onclick functions for the game answers for correct and incorrect answers
 
-//Need onclick functions for the game answers which are multiple choice
+//Add up correct and incorrect answers
 
-//
+//Let player know when the timer is up 
+
+//Let player know final score
 
