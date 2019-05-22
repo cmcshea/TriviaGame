@@ -2,7 +2,7 @@
 
 var correctAnswers = 0;
 var incorrectAnswers = 0;
-var correctArr = ["Pete Rose", "27", "Cooperstown, NY","",""];
+var correctArr = ["Pete Rose", "27", "Cooperstown, NY","Nolan Ryan",""];
 var timer = 0; 
 
 // Create a function to start the game 
