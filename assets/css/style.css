@@ -16,15 +16,17 @@ body {
     background-size: 100%;
 }
 
-#intro {
+.container {
     background: white;
     text-align: center;
 }
+
+/* #intro {
+    background: white;
+    text-align: center; */
 
 #title {
     font-size: 32px;
     color: red;
 }
-#timer {
-    /* float: right; */
-}
+
