@@ -1,5 +1,11 @@
 //create Global Vars
 
+var correctAnswers = 0;
+var incorrectAnswers = 0;
+var timer = 0; 
+
+//array for questions and answers
+
 var triviaQuestions = [
     {
         question: "#1: Who holds the Major League Baseball record for most career hits?",
@@ -28,9 +34,7 @@ var triviaQuestions = [
     },
 ]
 
-var correctAnswers = 0;
-var incorrectAnswers = 0;
-var timer = 0; 
+
 
 // Create a function to start the game 
 
@@ -71,11 +75,11 @@ $(document).on("click", ".answer", function(){
 })
 
 
-$(".startBtn").on ("click", function(){
+$(".startBtn").click, (function(){
     start()
     var timeRemaining = 30;
     timer = setInterval(function () {
-        $("#timer").text = timeRemaining + " seconds remaining";
+        $("#timer").text(timeRemaining + " seconds remaining");
         timeRemaining -= 1;
         if (timeRemaining <= 0) {
             done()  
