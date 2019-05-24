@@ -11,6 +11,21 @@ var triviaQuestions = [
         answers: ["35", "27", "12", "22"],
         correct: "27"
     },
+    {
+        question: "#3: In which city is the Baseball Hall of Fame located?",
+        answers: ["Williamsport, PA", "Jacksonville, FL", "St. Louis, MO", "Cooperstown, NY"],
+        correct: "27"
+    },
+    {
+        question: "#2: How many World Series Championsips have the New York Yankess won?",
+        answers: ["35", "27", "12", "22"],
+        correct: "27"
+    },
+    {
+        question: "#2: How many World Series Championsips have the New York Yankess won?",
+        answers: ["35", "27", "12", "22"],
+        correct: "27"
+    },
 ]
 
 var correctAnswers = 0;
