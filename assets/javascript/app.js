@@ -34,15 +34,14 @@ var triviaQuestions = [
     },
 ]
 
-
-
-// Create a function to start the game 
-
+//for loop for trivia questions array
 
 for(var i = 0; i < triviaQuestions.length; i++){
     var questionDiv = $("<div>")
     var questionTitle = $("<h2>").addClass("question").text(triviaQuestions[i].question)
     var answerDiv = $("<ul>").addClass("answers");
+
+    //for loop for trivia answers array
 
     for(var j = 0; j < triviaQuestions[i].answers.length; j++){
         var li = $("<li>")
@@ -74,6 +73,7 @@ $(document).on("click", ".answer", function(){
     }
 })
 
+// Create a function to start the game 
 
 $(".startBtn").click, (function(){
     start()
