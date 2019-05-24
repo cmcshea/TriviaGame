@@ -14,23 +14,22 @@ var triviaQuestions = [
     {
         question: "#3: In which city is the Baseball Hall of Fame located?",
         answers: ["Williamsport, PA", "Jacksonville, FL", "St. Louis, MO", "Cooperstown, NY"],
-        correct: "27"
+        correct: "Cooperstown, NY"
     },
     {
-        question: "#2: How many World Series Championsips have the New York Yankess won?",
-        answers: ["35", "27", "12", "22"],
-        correct: "27"
+        question: "#4: Which pitcher holds the record for most career Strikeouts?",
+        answers: ["Nolan Ryan", "Whitey Ford", "Cy Young", "Tom Seaver"],
+        correct: "Nolan Ryan"
     },
     {
-        question: "#2: How many World Series Championsips have the New York Yankess won?",
-        answers: ["35", "27", "12", "22"],
-        correct: "27"
+        question: "#5:Who was the first Major Leaguer to have his number retired?",
+        answers: ["Babe Ruth", "Lou Gehrig", "Jackie Robinson", "Ty Cobb"],
+        correct: "Lou Gehrig"
     },
 ]
 
 var correctAnswers = 0;
 var incorrectAnswers = 0;
-// var correctArr = ["Pete Rose", "27", "Cooperstown, NY","Nolan Ryan",""];
 var timer = 0; 
 
 // Create a function to start the game 
